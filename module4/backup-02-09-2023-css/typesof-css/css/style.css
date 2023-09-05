@@ -1,0 +1,22 @@
+body 
+{
+    /* background-color: coral; */
+   background: url('https://png.pngtree.com/background/20210709/original/pngtree-maple-autumn-leaves-fall-background-picture-image_629748.jpg') no-repeat;
+   background-size: cover; 
+   background-attachment: fixed;
+}
+div 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    margin-top: 2%;
+}
+h1 
+{
+    color: yellowgreen;
+    font-size: 40px;
+    text-decoration: none;
+}

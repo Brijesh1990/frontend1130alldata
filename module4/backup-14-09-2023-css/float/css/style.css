@@ -1,0 +1,149 @@
+  body 
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        #header 
+        {
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            padding: 15px;
+            border-bottom: 1px solid gray;
+        }
+        .logo 
+        {
+            width: 20%;
+            height: auto;
+            font-size: 25px;
+            letter-spacing: 2px;
+            margin-left: 5%;
+            padding: 10px;
+            float: left;
+        }
+        .search-bar
+        {
+      
+            width: 40%;
+            height: auto;
+            font-size: 25px;
+            letter-spacing: 2px;
+            margin-left: 0%;
+            padding: 10px;
+            float: left;
+        }
+        .search-bar input 
+        {
+            width: 90%;
+            height: auto;
+            padding: 8px;
+        }
+
+        .social-media 
+        {
+            width: 25%;
+            height: auto;
+            font-size: 20px;
+            letter-spacing: 2px;
+            margin-left: 0%;
+            padding: 10px;
+            float:right;
+        }
+
+        #navbar 
+        {
+            width: 100%;
+            height: auto;
+            margin: auto;
+            padding: 15px;
+            margin-top: 1%;
+            background-color: black;
+        }
+        .navbar-link 
+        {
+            width: 70%;
+            height: auto;
+            margin: auto;
+        }
+        .navbar-link ul li 
+        {
+            display: inline-block;
+            padding: 0px 5px;
+        }
+        .navbar-link a 
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+        }
+        .navbar-link a:after 
+        {
+            content: "|";
+            padding: 0px 20px;
+        }
+
+        .navbar-link .act:after 
+        {
+            content: "";
+        }
+
+        #slider 
+        {
+            width: 90%;
+            height: 350px;
+            margin: auto;
+            margin-top: 1%;
+            background-color: lightgray;
+
+        }
+
+        .slide img
+        {
+            width: 100%;
+            height: 350px;
+        }
+
+        #content
+        {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            margin-top: 2%;
+
+        }
+        .leftsidebar 
+           {
+            width: 40%;
+            height: 550px;
+            background-color: burlywood;
+            float: left;
+  
+        }
+
+        .rightsidebar 
+        {
+            width: 60%;
+            height: 550px;
+            background-color: cadetblue;
+            float: left;
+  
+        }
+        #footer 
+        {
+            width: 100%;
+            height: auto;
+            padding: 25px;
+            margin-top: 3%;
+            background-color: black;
+        }
+
+        .clearfix 
+        {
+            clear: both !important;
+        }
+        #footer p 
+        {
+            color: white;
+        }

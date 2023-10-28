@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+    <style>
+        .parent 
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            margin-top: 5%;
+            /* position: relative; */
+            border-top: double 8px red;
+          
+        }
+        .child
+        {
+            width: 100%;
+            height: 350px;
+            position: relative !important;
+            background: url('images/back.png') no-repeat !important;
+            background-size: cover;
+           
+         
+
+        }
+        .child:before 
+        {
+            width: 100%;
+            height: 350px;
+            content: "";
+            margin: 0;
+            padding: 0;
+            display: block !important;
+            position: absolute !important;
+            background-color: rgba(255,0,0,0.4) !important;
+            /* background-color: red !important; */
+            /* opacity: 0.2 !important; */
+        }
+        .child span 
+        {
+            color: red !important;
+            font-size: 95px !important;
+            margin-left: 45%;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="child">
+        <span class="fa fa-youtube"></span>
+        </div>
+    </div>
+    
+</body>
+</html>

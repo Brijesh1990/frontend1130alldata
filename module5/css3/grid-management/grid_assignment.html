@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .container 
+        {
+            width: auto;
+            height: auto;
+            display: grid;
+            /* background-color: aqua; */
+            gap: 10px;
+            padding: 10px;
+            border: solid 0px black;
+        }
+       
+        .grid-item 
+        {
+            background-color: rgba(255,255,255,0.8);
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+        .item1
+        {
+            grid-column: 1 / span 2;
+            grid-row: 1;
+            background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
+            background-size: cover;
+            color: white; 
+        }
+        .item2
+        {
+
+            grid-column: 3;
+            grid-row: 1 / span 4;
+            background-color: black;
+            color: white; 
+        }
+        .item5
+        {
+            grid-column: 1 / span 2;
+            grid-row: 3;
+            background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
+            background-size: cover;
+            color: white; 
+            
+        }
+        .item6 
+        {
+            grid-column: 1 / span 2;
+            grid-row: 4;
+            background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
+            background-size: cover;
+            color: white; 
+        }
+        
+        
+        .item3
+        {
+
+            background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
+            background-size: cover;
+            color: white; 
+        }
+        .item4 
+        {
+            background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
+            background-size: cover;
+            color: white; 
+        }
+        .navbar-link
+        {
+            float: right;
+        }
+        .navbar-link li 
+        {
+            display: block;
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+
+
+        }
+        .navbar-link a 
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            font-size: 15px !important;
+        }
+        .active 
+        {
+            background-color: red;
+            color: white;
+            padding: 4px 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">
+            <ul class="navbar-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#" class="active">Account</a></li>
+            </ul>
+        </div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div>
+    </div>
+    
+</body>
+</html>

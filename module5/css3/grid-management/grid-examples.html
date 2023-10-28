@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .container 
+        {
+            width: auto;
+            height: auto;
+            display: grid;
+            grid-template-areas: 'header header header header header' 
+            'menu main main right right'
+            'menu footer footer footer footer'
+            ;
+            background-color: aqua;
+            gap: 10px;
+            padding: 10px;
+            border: solid 5px black;
+        }
+        .container > div 
+        {
+            text-align: center;
+            border: solid 2px black;
+        }
+        .grid1
+        {
+            grid-area: header;
+        }
+        .grid2
+        {
+            grid-area: menu;
+        
+        }
+        .grid3
+        {
+            grid-area: main;
+        
+        }
+        .grid4
+        {
+            grid-area: right;
+        
+        }
+        .grid5
+        {
+            grid-area: footer;
+        
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid1">header</div>
+        <div class="grid2">menu</div>
+        <div class="grid3">main</div>
+        <div class="grid4">right</div>
+        <div class="grid5">footer</div>
+    </div>
+    
+</body>
+</html>

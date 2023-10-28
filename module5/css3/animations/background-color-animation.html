@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+    body 
+        {
+            width: 100%;
+            height: 658px;
+            background: -webkit-linear-gradient(black,gray);
+            background: -moz-linear-gradient(black,gray);
+            background: -o-linear-gradient(black,gray);
+            background: -i-linear-gradient(black,gray);
+            background: gradient(black,gray);
+        }
+        /* css3 animations provides by adding keyframes */
+
+        @keyframes anim {
+            /* for apply from and to */
+            
+            /* from
+            {
+              
+                background-color: red;
+            }
+            to 
+            {
+
+                
+                 background-color: blue;
+            }   */
+
+            0%
+            {
+                background-color: red;
+            }
+            20% 
+            {
+             background-color: lightgreen;
+            }
+            
+            40% 
+            {
+             background-color: blue;
+            }
+            
+            50% 
+            {
+             background-color: aquamarine;
+            }
+            
+            70% 
+            {
+             background-color: pink;
+            }
+           
+            90% 
+            {
+             background-color: coral;
+            }
+            
+            
+        }
+
+        .anim-background
+        {
+            width: 50%;
+            height: 250px;
+            background-color: aqua;
+            margin-left:25%;
+            margin-top: 5%;
+            /* -webkit-animation: alternate 8s anim;
+            -moz-animation: alternate 8s anim;
+            -o-animation: alternate 8s anim;
+            -i-animation: alternate 8s anim;
+            animation: alternate 8s anim; */
+            -webkit-animation: infinite 8s anim;
+            -moz-animation: infinite 8s anim;
+            -o-animation: infinite 8s anim;
+            -i-animation: infinite 8s anim;
+            animation: infinite 8s anim;
+            animation-delay: 3s !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="anim-background"></div>
+    
+
+</body>
+</html>

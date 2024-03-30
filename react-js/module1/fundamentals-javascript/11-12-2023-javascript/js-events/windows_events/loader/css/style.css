@@ -1,0 +1,35 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+#main-content
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none !important;
+}
+.content 
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+}
+
+#loader 
+{
+    width: 350px;
+    height: 350px;
+    /* background: url('../images/loader.gif') no-repeat; */
+    /* background: url('../images/loader1.gif') no-repeat; */
+    background: url('../images/loader3.gif') no-repeat;
+    background-size: 350px 350px;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+}

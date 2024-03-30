@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: lightgray;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        #address 
+        {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            margin-top: 8%;
+            padding: 15px;
+            background-color: white;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .address1,.address2,.address3,.address4 
+        {
+            width: 85%;
+            height: auto;
+            margin-top: 5%;
+            padding: 15px;
+            justify-content: space-evenly;
+            box-shadow: 2px 2px 1px 1px gray;
+            background-color: white;
+            color: black;
+        }
+    </style>
+
+    <script>
+        function add1()
+        {
+            var ad1="Jayoti Nagar Chowk, Kalawad Rd, opp. Garden, Rajkot, Gujarat 360005";
+            document.write(ad1);
+        }
+        
+        function add2()
+        {
+            var ad2="Nr. Latest Mobile, Maruti Chowk, Satyasai Heart Hospital Road, Gujarat 360005";
+            document.write(ad2);
+        }
+
+        function add3()
+        {
+            var ad3=" 80 Feet Rd, Vishwakarma Society, Vivekanand Wadi, Anand, Gujarat 388005";
+            document.write(ad3);
+        }
+        
+        function add4()
+        {
+            var ad4="Jayoti Nagar Chowk, Kalawad Rd, opp. Garden, Rajkot, Gujarat 360005";
+            document.write(ad4);
+        }   
+    </script>
+</head>
+<body>
+
+    <section id="address">
+        <div class="address1">
+            <script>add1()</script>
+        </div>
+        <div class="address2">
+            <script>add2()</script>
+        </div>
+        <div class="address3">
+            <script>add3()</script>
+        </div>
+        <div class="address4">
+            <script>add4()</script>
+        </div>
+    </section>
+    
+</body>
+</html>

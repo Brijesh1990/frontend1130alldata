@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p id="demo1">Hello demo1</p>
+    <p class="demo2">Hello demo2</p>
+    <p class="demo2">Hello demo2</p>
+    <p class="demo2">Hello demo2</p>
+    <p class="demo2">Hello demo2</p>
+    <p class="demo2">Hello demo2</p>
+    <p class="demo2">Hello demo2</p>
+    <div>Hello div</div>
+    <script>
+    // var res=document.querySelectorAll(".demo2");
+    // res[0].style.backgroundColor="green";
+    // res[1].style.backgroundColor="green";
+    // res[2].style.backgroundColor="green";
+    // res[3].style.backgroundColor="green";
+
+    // var res=document.querySelectorAll(".demo2");
+    // res[0].style.backgroundColor="green";
+    // res[1].style.backgroundColor="green";
+    // res[2].style.backgroundColor="green";
+    // res[3].style.backgroundColor="green";
+
+     var res=document.querySelectorAll(".demo2");
+     var i;   
+     for(i=0;i<=res.length;i++)
+     {
+        res[i].style.backgroundColor="red"; 
+     }
+
+</script>
+</body>
+</html>

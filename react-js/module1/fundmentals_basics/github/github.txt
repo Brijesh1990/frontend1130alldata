@@ -1,0 +1,8 @@
+github : github is a server repository systems where we stored our data inside of github.com create respository systems 
+  commands :
+   1) git init
+   2) git add .
+   3) git commit -m '06-04-2024 all data uploaded'
+   4) git add remote origin 'git repository url'
+   5) git push -u origin master --force
+

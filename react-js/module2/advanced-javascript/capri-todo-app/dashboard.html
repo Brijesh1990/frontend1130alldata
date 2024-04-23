@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <script src='main.js'></script>
+</head>
+<body>
+ <div id="menu" class="shadow sticky-md-top">
+    <button type="button" id="menu-toggle" class="btn btn-md border border-0  btn-login "><span class="bi bi-grid"></span>
+    </button>
+    <span class="p-3 rounded-circle bg-light shadow ms-4">BP</span>
+    <span class="ms-4">Welcome :Brijesh Kumar Pandey</span>
+    <span class="float-end"><span class="bi bi-bell fs-4 p-5"><span class="badge badge-sm bg-danger">0</span></span>
+
+</div>
+<div class="sidebar-menu mt-5">  
+  <div class="row">
+    <div class="col-md-3 sidebar">
+    <ul id="menu-list">
+        <li><a href="dashboard.html">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Raise a Request</a></li>
+        <li><a href="to-do-app.html">To do app</a></li>
+        <li class="ms-2"><a href="" class="btn btn-danger bg-danger text-white" onclick="logout()">Logout</a></li>
+</ul>
+</div>
+<div class="col-md-8 mt-0 content">
+    <div class="banners">
+    <img src="https://www.capriloans.in/wp-content/uploads/2023/12/Blog-I-web.jpg" class="img-fluid mt-5 w-100">
+    </div>
+
+    <div class="row">
+        <div class="col-md-5 shadow p-2 ms-5 mt-4">
+            <p class="text-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWyCkNiNJRRD0Xv1g7xk4ZgFrBtGiA9aUXAPEqjK1KdndSZgMfg257j2zf8TkIMM4g_0&usqp=CAU" class="img-fluid" style="width: 70%; height: 200px;"></p>
+            <p class="text-center fs-4">Gold Loan</p>
+            
+        </div>
+        <div class="col-md-5 shadow p-2 ms-5 mt-4">
+            <p class="text-center"><img src="https://assets.thehansindia.com/h-upload/2022/03/24/1600x960_1283357-housing-loans.jpg"  class="img-fluid" style="width: 70%; height: 200px;"></p>
+            <p class="text-center fs-4">Home Loan</p>
+            
+        </div>
+        <div class="col-md-5 shadow p-3 ms-5 mt-4">
+            <p class="text-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJvuanEeI0LfNTN0lJamBeOCzNQxfgwWVUL-GujUrKXDI-4EcSvGOrs0hpb8gKSZvQj2k&usqp=CAU"  class="img-fluid" style="width: 70%; height: 200px;"></p>
+            <p class="text-center fs-4">Morgage Loan</p>
+            
+        </div>
+        <div class="col-md-5 shadow p-3 ms-5 mt-4">
+            <p class="text-center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxETUYujc_0jeHtMeJPtxWwtsX43JGJIDPSZZV3ln1w&s" class="w-75"></p>
+            <p class="text-center fs-4">Balane Transfer</p>
+            
+        </div>
+    </div>
+
+
+</div>
+</div>  
+
+<div class="footer fixed-bottom p-0">
+<div class="container mx-auto w-75">
+ <div class="row">
+  <div class="col-md-3 ms-5">     
+  <p class="text-center">
+    <span class="bi bi-house-check fs-1 p-5 text-warning"></span>
+    <p class="text-center text-white lh-1 fs-4">Home</p>
+  </p>
+  </div>
+
+  <div class="col-md-3 ms-5">     
+  <p class="text-center">
+    <span class="bi bi-currency-rupee fs-1 p-5 text-warning"></span>
+    <p class="text-center text-white lh-1 fs-4">My Loan</p>
+  </p>
+  </div>
+  <div class="col-md-3 ms-5">     
+    <p class="text-center">
+        <span class="bi bi-person fs-1 p-5 text-warning"></span>
+        <p class="text-center text-white lh-1 fs-4">Profile</p>
+      </p>
+  </div>
+
+  </div>  
+
+</div>
+ 
+<!-- script -->
+<script src="js/login.js"></script>
+<script src="js/toggler.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

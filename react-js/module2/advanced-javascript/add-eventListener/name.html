@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+      
+      window.onload=()=>{
+
+    //  function dip()
+    //  {   
+     let btn1=document.getElementById("btn1");
+     let btn2=document.getElementById("btn2");   
+
+      btn1.addEventListener("click",display);
+      function display()
+      {
+        let nm=prompt("Enter your name :");
+        alert('Your name is :'+nm)
+      }
+
+
+      btn2.addEventListener("click",display1);
+      function display1()
+      {
+        let ag=prompt("Enter your age :");
+        alert('Your age is :'+ag)
+      }
+
+ }
+    // }
+
+    </script>
+</head>
+<!-- <body onload="dip()"> -->
+    <body>
+    <center>
+    <button type="button" id="btn1">Click to Get Name >></button>
+    <button type="button" id="btn2">Click to Get Age >></button>
+    </center>
+</body>
+</html>

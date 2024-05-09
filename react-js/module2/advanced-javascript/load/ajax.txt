@@ -1,0 +1,6 @@
+ajax : ajax is stands for asynchrounous javascript and xml
+       ajax is used to reload content without page refresh or reload.
+       xml : xml stands for x-tensible markup language (xml used to load a dynamic content on server)
+
+load: is an method its same load any content on server without page reload of current page.
+        

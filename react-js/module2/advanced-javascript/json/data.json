@@ -1,0 +1,56 @@
+{
+    "employee-details":[
+        {
+        "id":1001,
+        "name":"kayum",
+        "mobile":9998003879,
+        "pincode":360005
+
+        },
+
+        {
+            "id":1002,
+            "name":"Brijesh",
+            "mobile":9998003879,
+            "pincode":360005
+    
+        },
+
+        {
+            "id":1003,
+            "name":"Lokesh",
+            "mobile":9998003879,
+            "pincode":360005
+    
+        }
+    ],
+
+    "contact-us":[
+        {
+            "id":1,
+            "name":"brijesh",
+            "email":"b@gmail.com",
+            "subject":"hi",
+            "message":"hi i brijesh",
+            "added_date":"09-05-2024"
+        },
+        {
+            "id":2,
+            "name":"rajesh",
+            "email":"b@gmail.com",
+            "subject":"hi",
+            "message":"hi i brijesh",
+            "added_date":"09-05-2024"
+        },
+        {
+            "id":3,
+            "name":"rageshri",
+            "email":"b@gmail.com",
+            "subject":"hi",
+            "message":"hi i brijesh",
+            "added_date":"09-05-2024"
+        }
+    ]
+
+  
+}

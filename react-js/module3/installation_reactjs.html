@@ -1,0 +1,115 @@
+<!-- How to install react js 
+
+a) download node js 
+b) install node js 
+c) check version of node js node -v
+d) after install node js NPM or NPX are installed
+https://nodejs.org/en/download
+
+NPM : node package manage 
+NPM is used to create app inside of react js
+NPM is used to installing all dependencies of libraries
+node package manager or it is a dependency manager 
+
+NPX :node package extension
+Add extensions inside of react js 
+Add <StrictMode> 
+using npx to create app inside of react is advantage that it is add extensions.
+
+
+a) How to create react app via npx or npm
+
+e)npx create-react-app app-name 
+f)cd app-name
+g)npm start
+
+http://localhost:3000/
+
+You can now view demo-app in the browser.
+
+Local:            http://localhost:3000
+On Your Network:  http://192.168.29.4:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+
+b) how to create react app using vite libraries 
+
+Vite : vite is an libraries to cerate any app inside of react js
+Vite is able to create app inside of vue js .
+Vite is superfast create app | load on broswers
+
+1) install a node js 
+2) npm | npx is vailable
+3) npm create vite@latest
+4) app-name
+5) select react
+6) select javascript
+7) cd appname
+8) npm install
+9) npm run dev  
+
+
+➜  Local:   http://localhost:5173/
+➜  Network: use --host to expose
+➜  press h + enter to show help
+
+
+
+Note : app should never be started though react prefix and can not also start with Upercase.
+
+npx create-react-app app-name
+npx create-react-app appname
+
+
+React directory systems :
+
+node_modules =>node modules are used to run react js app | install all dependencies of libraries | install all required external libraries.
+cmd : npm install
+
+
+src => src is main folder where we create our react js main components.
+index.js
+App.js
+css (save)
+images
+
+
+Note : we create any components inside of react in src=>App.js
+components first name should be start with uppercase.
+
+public =>public is used to load for index.html or your home page of website.
+index.html
+
+
+package.json=> package.json is used to create all descriptions of your app | all libraries is registered inside of package.json.
+
+
+How to check version of react js :
+
+a) go inside of package.json all details are there
+
+b) go to open command npm view react version
+18.3.1
+
+c) using script to check react version
+
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+return (
+<div className="App">
+<h1>React js version is {React.version}</h1>
+</div>
+);
+}
+
+export default App;
+
+
+-->

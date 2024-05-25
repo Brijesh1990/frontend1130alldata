@@ -1,0 +1,40 @@
+$bg-danger:red;
+$text-danger:red;
+$bg-white:white;
+
+
+body 
+{
+
+background-color: $bg-danger !important;
+}
+.parent 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    background-color: $bg-danger;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 
+{
+
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: $bg-white;
+
+}
+.box2
+{
+
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: $bg-white;
+}

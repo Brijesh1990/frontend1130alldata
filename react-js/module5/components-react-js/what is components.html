@@ -1,0 +1,86 @@
+<!-- 
+what is React components ? 
+components is a small peace of file in react js i.e saved as .js or .jsx
+components is reusable
+when we create any components so take a firstname as uppercase
+
+Advantages of components :  
+  Instant updates without page reloads.
+  Use conditional statements within the JSX
+  Reuse the same components.
+  Update just one component.
+  The code is nice and stable.
+  React. js is easy to learn.
+  
+examples : App.jsx or Hello.jsx , Home.jsx
+components are called as two types 
+ a) function components :
+     App.jsx
+     function App()
+     {
+       return (
+       
+        <>
+        
+        <h1>Hello i m Brijesh</h1>
+        
+        </>
+       
+       )
+     }  
+       
+     function MyApp()
+
+     {
+      return (
+       <App /> 
+        <>
+        
+        <h3>i am reused function using function components</h3>
+            
+            
+            </>
+      )
+     
+     }
+
+     export default MyApp
+
+
+     Note : in react 18.0.2 version and uper versions of react we used functions based components
+
+           React hooks are not more supported in class based components.   
+
+ b) class components
+
+     class App extends Component 
+     {
+       render
+       {
+       
+       <>
+       <h1>I am used class Based components</h1>
+       
+       </>
+       
+       
+       }
+
+       class MyApp extends App 
+       {
+        render
+       {
+       
+       <>
+       <App />
+       <h1>I am re-used class Based components</h1>
+       
+       </>
+
+       }
+
+     }
+
+     export default MyApp
+
+-->

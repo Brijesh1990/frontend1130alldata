@@ -1,0 +1,48 @@
+props stands for properties 
+Props are arguments passed into React components.
+ examples 
+
+  function App(props)
+  {
+   statements;
+  }
+
+props stands for properties 
+React Props are like function arguments in JavaScript and attributes in HTML.
+To send props into a component, use the same syntax as HTML attributes:
+
+const myElement = <Car brand="Ford" />;
+
+The component receives the argument as a props object:
+
+function Car(props) {
+    return <h2>I am a { props.brand }!</h2>;
+  }
+
+
+export default Car
+  
+
+Pass Data :
+
+Props are also how you pass data from one component to another, as parameters.
+
+function Car(props) {
+    return <h2>I am a { props.brand }!</h2>;
+  }
+  
+  function Garage() {
+    return (
+      <>
+        <h1>Who lives in my garage?</h1>
+        <Car brand="Ford" />
+      </>
+    );
+  }
+  
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<Garage />);
+  
+
+
+  Note : props are immutable objects provide it meanse we can not change | update value on run time in application via props.

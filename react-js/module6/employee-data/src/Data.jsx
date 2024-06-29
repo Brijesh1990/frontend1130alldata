@@ -1,0 +1,23 @@
+export const Data=[
+    {
+        id:1001,
+        name:"Brijesh",
+        age:25,
+        salary:89500,
+        photo:"https://i.pinimg.com/474x/0a/a8/58/0aa8581c2cb0aa948d63ce3ddad90c81.jpg"
+    },
+    {
+        id:1001,
+        name:"Bhautik",
+        age:25,
+        salary:89500,
+        photo:"https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1719532800&semt=ais_user"
+    },
+    {
+        id:1001,
+        name:"kayum",
+        age:25,
+        salary:99500,
+        photo:"https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
+    },
+]

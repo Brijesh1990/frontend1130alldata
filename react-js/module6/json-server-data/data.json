@@ -1,0 +1,93 @@
+{
+    "contact-us":[
+        {
+            "id":1001,
+            "name":"brijesh",
+            "age":35,
+            "salary":105000,
+            "pincode":36005
+
+        },
+
+        {
+            "id":1001,
+            "name":"Rageshari",
+            "age":35,
+            "salary":105000,
+            "pincode":36005
+
+        },
+
+        {
+            "id":1001,
+            "name":"Twinkle",
+            "age":35,
+            "salary":105000,
+            "pincode":36005
+
+        },
+
+        {
+            "id":1001,
+            "name":"Bhautik",
+            "age":35,
+            "salary":105000,
+            "pincode":36005
+
+        }
+
+    ],
+
+    "reviews":[
+        {
+            "id":1001,
+            "name":"Bhautik",
+            "age":35,
+            "email":"bh007@gmail.com",
+            "pincode":36005,
+            "comment":"good"
+
+        },
+        {
+            "id":1001,
+            "name":"Bhautik",
+            "age":35,
+            "email":"bh007@gmail.com",
+            "pincode":36005,
+            "comment":"good"
+
+        },
+        {
+            "id":1001,
+            "name":"Bhautik",
+            "age":35,
+            "email":"bh007@gmail.com",
+            "pincode":36005,
+            "comment":"good"
+
+        },
+        {
+            "id":1001,
+            "name":"Bhautik",
+            "age":35,
+            "email":"bh007@gmail.com",
+            "pincode":36005,
+            "comment":"good"
+
+        }
+    ],
+
+    "products-api":[
+        {
+         
+            "id":1001,
+            "productname":"herbal products",
+            "oldprice":1035,
+            "offerprice":850,
+            "photo":"https://m.media-amazon.com/images/I/71sP-UKihbL._AC_UF1000,1000_QL80_.jpg",
+            "qty":1,
+            "descriptions":"good for hair fall"
+           
+        }
+    ]
+}

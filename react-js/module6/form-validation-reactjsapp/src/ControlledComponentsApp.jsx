@@ -14,7 +14,6 @@ function App()
     // destructuring of data for errors for form handeling validations
     const[errors,setErrors]=useState({});
 
-
     // form form validation create a function 
     const validate=()=>{
 

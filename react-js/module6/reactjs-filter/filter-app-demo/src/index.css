@@ -1,0 +1,19 @@
+.app
+{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+  
+}
+.box 
+{
+
+  width: 30%;
+  height: auto;
+  background-color: aliceblue;
+  border: inset 1px;
+  float: left;
+  margin: 25px;
+  text-align: center;
+}

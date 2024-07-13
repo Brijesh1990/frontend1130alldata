@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './ControlledComponentsApp'
-import App from './UncontrolledComponents'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import Employee from './Employee'
+import Products from './ProductsCategory'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    {/* <Employee /> */}
+    <Products />
   </React.StrictMode>,
 )

@@ -1,0 +1,52 @@
+{
+  "add-data": [
+    {
+      "id": "2696",
+      "name": "bhautik",
+      "email": "bhautik007@gmail.com",
+      "phone": "9998003879",
+      "address": "150 feet ring road rajkot",
+      "pincode": "360005"
+    },
+    {
+      "id": "4aef",
+      "name": "brijesh",
+      "email": "bkpandey@gmail.com",
+      "phone": "9996545454",
+      "address": "150 feet ring rad ahemdabad",
+      "pincode": "362156"
+    },
+    {
+      "id": "8b6a",
+      "name": "rageshri",
+      "email": "rageshri007@gmail.com",
+      "phone": "9998003879",
+      "address": "raiya road behind alap green city rajkot",
+      "pincode": "360005"
+    },
+    {
+      "id": "6e64",
+      "name": "abcd",
+      "email": "abcd@gmail.com",
+      "phone": "9121212121",
+      "address": "ahebdabad",
+      "pincode": "3652121"
+    },
+    {
+      "id": "c471",
+      "name": "sneha",
+      "email": "sneha007@gmail.com",
+      "phone": "9998003879",
+      "address": "150 feet",
+      "pincode": "36545454"
+    },
+    {
+      "id": "afba",
+      "name": "bbb",
+      "email": "bbb",
+      "phone": "bbb",
+      "address": "bbb",
+      "pincode": "bbb"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "contactus": [
+    {
+      "id": "acc2",
+      "name": "brijesh",
+      "email": "bkpandey.pandey@gmail.com",
+      "phone": "88887965878",
+      "message": "hi brijesh"
+    },
+    {
+      "id": "db47",
+      "name": "utsav",
+      "email": "bkpandey.pandey@gmail.com",
+      "phone": "33211219412",
+      "message": "hi"
+    },
+    {
+      "id": "fbf4",
+      "name": "gaurav",
+      "email": "gautam007@gmail.com",
+      "phone": "9412121212",
+      "message": "hi"
+    },
+    {
+      "id": "b28a",
+      "name": "abcd",
+      "email": "admin@gmail.com",
+      "phone": "91212121",
+      "message": "hi"
+    }
+  ]
+}

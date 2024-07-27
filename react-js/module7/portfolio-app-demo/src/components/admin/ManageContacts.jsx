@@ -1,13 +1,12 @@
-import React from 'react';
-// import Chart from 'react-google-charts';
+import React,{useEffect,useState} from 'react';
+import Chart from 'react-google-charts';
 import { Container,Row} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import AdminHeader from './AdminHeader';
 import AdminSidebar from './AdminSidebar';
 import AdminFooter from './AdminFooter';
-
+import axios from 'axios';
 // bar charts
-
 // const dataOld = [
 //     ["Name", "Popularity"],
 //     ["Cesar", 250],
@@ -37,16 +36,28 @@ import AdminFooter from './AdminFooter';
 // columns charts
 
 
-// export const data = [
-//     ["Element", "Density", { role: "style" }],
-//     ["Copper", 8.94, "#b87333"], // RGB value
-//     ["Silver", 10.49, "silver"], // English color name
-//     ["Gold", 19.3, "gold"],
-//     ["Platinum", 21.45, "color: #e5e4e2"], // CSS-style declaration
-//   ];
+export const data = [
+    ["Element", "Density", { role: "style" }],
+    ["Copper", 8.94, "#b87333"], // RGB value
+    ["Silver", 10.49, "silver"], // English color name
+    ["Gold", 19.3, "gold"],
+    ["Platinum", 21.45, "color: #e5e4e2"], // CSS-style declaration
+  ];
   
 
 export default function ManageContacts() {
+  
+  // destructuring of state
+  const[item,setItem]=useState("");
+  useEffect(()=>{
+
+    axios.get(`http://localhost:4000/contactus`).then((response)=>{
+      setItem(response.data);
+    })
+  
+  },[item]); //[] is an dependency i.e used to render data one times 
+  
+  
   return (
     <div>
     <AdminHeader />
@@ -65,23 +76,30 @@ export default function ManageContacts() {
       <th scope="col">Name</th>
       <th scope="col">Email</th>
       <th scope="col">Phone</th>
-      <th scope="col">Subject</th>
       <th scope="col">Message</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
-  <tbody>
+  {item && item.map((managedata)=>{
+    
+      return(
+        <>
+        <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Hardik</td>
-      <td>hardik@gmail.com</td>
-      <td>9521212121</td>
-      <td>customer services</td>
-      <td>hi</td>
+      <th scope="row">{managedata.id}</th>
+      <td>{managedata.name}</td>
+      <td>{managedata.email}</td>
+      <td>{managedata.phone}</td>
+      <td>{managedata.message}</td>
       <td><Link to="" className='btn btn-sm btn-danger text-white'><i className='bi bi-trash'></i></Link></td>
     </tr>
    
   </tbody>
+        </>
+      )
+     
+  })}
+  
 </table>
 
 
@@ -96,8 +114,8 @@ export default function ManageContacts() {
     options={options}
   />  */}
 
-{/* 
-  <Chart chartType="ColumnChart" width="100%" height="400px" data={data} /> */}
+
+  <Chart chartType="ColumnChart" width="100%" height="400px" data={data} />
     
     </div>
     </Row>

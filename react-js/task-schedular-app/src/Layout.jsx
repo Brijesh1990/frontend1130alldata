@@ -2,10 +2,13 @@ import React,{useState,useEffect} from 'react'
 import { Container } from 'react-bootstrap'
 import AddTask from './AddTask'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 export default function Layout() {
 
     // fetch all task here
     const[data,setData]=useState([]); 
+     const Navigate=useNavigate();
     useEffect(()=>{
 
         // call fetch api using axios
@@ -19,8 +22,6 @@ export default function Layout() {
     <Container className='p-5 bg-white border border-success border-3 w-50 mx-auto mt-5 anim'>
     <h1>
     To do List <button type='button' className='btn btn-dark text-white '>Total Task is  <span className='badge badge-danger bg-danger text-white'>{data.length}</span></button>
-
-
 
     <button type='button' className='btn btn-dark text-white  mt-0 ms-5' data-bs-toggle="modal" data-bs-target="#add-tsk">Add Task <span className='bi bi-list-task'></span></button>
     
@@ -43,7 +44,7 @@ export default function Layout() {
             <td>{row.taskname}</td>
             <td>{row.priority}</td>
             <td>{row.adddate}</td>
-            <td><button type='button' className='btn btn-danger bg-danger text-white btn-sm'><span className='bi bi-trash'></span></button>  |  <button type='button' className='btn btn-primary bg-primary text-white btn-sm'><span className='bi bi-pencil'></span></button></td>
+            <td><button onClick={()=>Navigate(`/delete-task/${row.id}`)} type='button' className='btn btn-danger bg-danger text-white btn-sm'><span className='bi bi-trash'></span></button>  |  <button type='button'   onClick={()=>Navigate(`/edit-task/${row.id}`)}className='btn btn-primary bg-primary text-white btn-sm'><span className='bi bi-pencil'></span></button></td>
         </tr>
     </table>
     </Container>

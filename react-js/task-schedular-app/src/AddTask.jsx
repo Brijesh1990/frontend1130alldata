@@ -26,10 +26,8 @@ export default function AddTask() {
                 text: "Your task succesfully Addedd!",
                 icon: "success"
               });
-
               Navigate('/');
         });
-
         e.target.reset();
     } 
   return (

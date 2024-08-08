@@ -1,0 +1,20 @@
+{
+  "add-data": [
+    {
+      "name": "bhatik",
+      "email": "bhatik007@gmail.com",
+      "phone": "81545454",
+      "address": "150 feet ring rad ahemdabad",
+      "pincode": "362156",
+      "id": "4aef"
+    },
+    {
+      "name": "utsav",
+      "email": "utsav007@gmail.com",
+      "phone": "941545454",
+      "address": "ahemdabad",
+      "pincode": "360008",
+      "id": "dce5"
+    }
+  ]
+}

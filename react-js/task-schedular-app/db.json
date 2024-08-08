@@ -1,10 +1,10 @@
 {
   "add-task": [
     {
-      "id": "ae0b",
-      "taskname": "angular crud operations",
-      "priority": "Top priority",
-      "adddate": "2024-08-06"
+      "taskname": "data sceince crud operations",
+      "priority": "Low priority",
+      "adddate": "2024-08-23",
+      "id": "ae0b"
     },
     {
       "id": "1174",
@@ -13,28 +13,10 @@
       "adddate": "2024-08-07"
     },
     {
-      "id": "0f16",
-      "taskname": "Node crud operations",
-      "priority": "Top priority",
-      "adddate": "2024-08-06"
-    },
-    {
-      "id": "7de1",
-      "taskname": "Laravel crud operations",
+      "taskname": "oodu",
       "priority": "Low priority",
-      "adddate": "2024-08-17"
-    },
-    {
-      "id": "f0c1",
-      "taskname": "one age seo marketing",
-      "priority": "Top priority",
-      "adddate": "2024-08-06"
-    },
-    {
-      "id": "b404",
-      "taskname": "call api in fast way using react js",
-      "priority": "Top priority",
-      "adddate": ""
+      "adddate": "2024-08-10",
+      "id": "8143"
     }
   ]
 }

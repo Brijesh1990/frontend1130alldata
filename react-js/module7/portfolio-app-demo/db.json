@@ -35,5 +35,89 @@
       "phone": "9998003879",
       "message": "hi"
     }
+  ],
+  "add-abstract": [
+    {
+      "id": "cdba",
+      "name": "brijesh",
+      "email": "bkpandey@gmail.com",
+      "mobile": "9998003879",
+      "objectives": "My Objective To achieve a responsible and challenging position in the\norganization where my hard work, responsibility and creativity can be shared and\nenriched."
+    }
+  ],
+  "skils-category": [
+    {
+      "id": "b8ed",
+      "skillsname": "php with laravel",
+      "addeddate": "2024-08-10"
+    },
+    {
+      "id": "8b3e",
+      "skillsname": "node js",
+      "addeddate": "2024-08-10"
+    },
+    {
+      "id": "2cf4",
+      "skillsname": "Fromtend developments",
+      "addeddate": "2024-08-10"
+    },
+    {
+      "id": "2d17",
+      "skillsname": "angular js",
+      "addeddate": "2024-08-10"
+    },
+    {
+      "id": "ae96",
+      "skillsname": "React js",
+      "addeddate": "2024-08-10"
+    },
+    {
+      "id": "0321",
+      "skillsname": "Microsoft azure",
+      "addeddate": "2024-08-10"
+    },
+    {
+      "id": "f689",
+      "skillsname": "php with wordpress",
+      "addeddate": "2024-08-10"
+    }
+  ],
+  "add-portfolio": [
+    {
+      "id": "6eff",
+      "skillscategory": "php with laravel",
+      "photo": "https://rukminim2.flixcart.com/image/280/280/xif0q/shampoo/k/a/5/-original-imahf83sdguh8hbn.jpeg?q=70",
+      "descriptions": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again. (*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+    },
+    {
+      "id": "ff12",
+      "skillscategory": "node js",
+      "photo": "https://rukminim2.flixcart.com/image/280/280/xif0q/shampoo/0/k/1/-original-imagpy9geumgfeqt.jpeg?q=70",
+      "descriptions": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again. (*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+    },
+    {
+      "id": "6eff",
+      "skillscategory": "php with laravel",
+      "photo": "https://rukminim2.flixcart.com/image/280/280/xif0q/shampoo/k/a/5/-original-imahf83sdguh8hbn.jpeg?q=70",
+      "descriptions": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again. (*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+    },
+    {
+      "id": "ff12",
+      "skillscategory": "node js",
+      "photo": "https://rukminim2.flixcart.com/image/280/280/xif0q/shampoo/0/k/1/-original-imagpy9geumgfeqt.jpeg?q=70",
+      "descriptions": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again. (*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+    },
+    {
+      "id": "6eff",
+      "skillscategory": "php with laravel",
+      "photo": "https://rukminim2.flixcart.com/image/280/280/xif0q/shampoo/k/a/5/-original-imahf83sdguh8hbn.jpeg?q=70",
+      "descriptions": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again. (*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+    },
+    {
+      "id": "ff12",
+      "skillscategory": "node js",
+      "photo": "https://rukminim2.flixcart.com/image/280/280/xif0q/shampoo/0/k/1/-original-imagpy9geumgfeqt.jpeg?q=70",
+      "descriptions": "Go from dry and frizzy hair to smooth and silky hair in just one wash. Head & Shoulders Smooth & Silky Anti-Dandruff Shampoo is formulated with added moisturizers to cleanse and restore dry, frizzy hair and leave you with dandruff free hair*. Go ahead, run your hands through your hair again. (*visible flakes only, with regular use) - 24 hour frizz control for smooth, beautiful-looking hair - Gentle pH balanced formula for everyday use, even on color treated hair"
+    }
   ]
 }

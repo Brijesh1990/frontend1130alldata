@@ -43,7 +43,7 @@ const addFormData=(e)=>{
             icon: "success"
           });
 
-          Navigate('/contact-us');
+          Navigate('/manage-contactdata');
     });
 
     e.target.reset();

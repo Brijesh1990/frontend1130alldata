@@ -8,6 +8,7 @@ import Services from './components/Services'
 import CreateAccount from './components/CreateAccount'
 import Login from './components/Login'
 import Contact from './components/Contact'
+import ShowContactData from './components/ShowContactData'
 import NotFound from './components/NotFound'
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
           <Route path='/create-account' element={<CreateAccount />} />
           <Route path='/login' element={<Login />} />
           <Route path='/contact-us' element={<Contact />} />
+          <Route path='/manage-contactdata' element={<ShowContactData />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>   
